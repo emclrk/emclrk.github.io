@@ -1,2 +1,15 @@
-theme: jekyll-theme-minimal
 title: emclrk's homepage
+description: EE background. Learning systems and security.
+baseurl: ""
+url: "https://emclrk.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - background.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock

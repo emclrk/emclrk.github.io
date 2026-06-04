@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="site-title" href="{{ '/' | relative_url }}">emclrk</a>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">home</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}">projects</a></li>
+        <li><a href="{{ '/resources/' | relative_url }}">resources</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <span>// emclrk.github.io</span>
+  </footer>
+</body>
+</html>
