@@ -10,6 +10,8 @@ kramdown:
 
 exclude:
   - background.md
+  - context.md
+  - SDR_Report.md
   - README.md
   - Gemfile
   - Gemfile.lock
